@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.widget.RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_height="wrap_content"
+
+    android:layout_width="wrap_content"
+    android:id="@+id/third_activity">
+
+
+    <LinearLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/dark_blue"
+            android:text=" "></TextView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/closeapp"
+            android:text="Close App" />
+
+        <Button
+            android:id="@+id/getfromserver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GetFromServer" />
+
+
+
+
+    </LinearLayout>
+
+
+</android.widget.RelativeLayout>
+
+

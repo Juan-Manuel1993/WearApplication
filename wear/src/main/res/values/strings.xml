@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Wear Application</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+
+
+    -->
+
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+
+    <string name="no_location_detected">
+        No location detected. Make sure location is enabled on the device.
+    </string>
+    <string name="Get">Get From Server</string>
+
+
+    <string name="Display">Date and Time</string>
+
+    <string name="mode_ambient_label">Ambient Mode (Alarm)</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+
+
+
+</resources>
